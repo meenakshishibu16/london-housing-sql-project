@@ -86,56 +86,7 @@ london-housing-sql-project/
 
 ---
 
-## 5. How to Run This Project
-
-### Step 1: Create Database
-
-CREATE DATABASE london_housing;
-USE london_housing;
-
----
-
-### Step 2: Import CSV into london_raw
-
-- Open MySQL Workbench  
-- Right-click on the london_housing schema  
-- Click Table Data Import Wizard  
-- Select London_with_years.csv  
-- Name the table: london_raw  
-- Finish import  
-
----
-
-### Step 3: Create Tables
-
-Run:
-
-sql/01_schema.sql
-
----
-
-### Step 4: Transform & Load Clean Data
-
-Run:
-
-sql/02_transform.sql
-
-This:
-- Inserts unique house types  
-- Inserts unique locations  
-- Loads clean normalized data into the listing table  
-
----
-
-### Step 5: Run Analysis Queries
-
-Run:
-
-sql/03_analysis_queries.sql
-
----
-
-## 6. Key Analysis Performed
+## 5. Key Analysis Performed
 
 - Counted total number of listings  
 - Computed min, max, and average property prices  
@@ -156,13 +107,7 @@ sql/03_analysis_queries.sql
 
 ---
 
-## 7. Core Highlight
-
-Identified the Top 5 London districts by price growth over a 5-year period (2016–2020) using time-series aggregation and window functions.
-
----
-
-## 8. SQL Concepts Used
+## 6. SQL Concepts Used
 
 - Database schema design  
 - Data normalization  
@@ -185,19 +130,7 @@ Identified the Top 5 London districts by price growth over a 5-year period (2016
 
 ---
 
-## 9. Resume Description
-
-London Housing SQL Analysis Project (MySQL)
-
-- Designed a normalized relational database for London housing data  
-- Imported and transformed a real-world Kaggle dataset using MySQL  
-- Built analytical SQL queries using JOINs, window functions, and time-series aggregation  
-- Identified the top 5 districts by housing price growth over 5 years  
-- Documented and published the full SQL workflow on GitHub  
-
----
-
-## 10. Future Improvements
+## 7. Future Improvements
 
 - Add Python or Tableau visualizations  
 - Build a dashboard for district-wise growth  
@@ -206,7 +139,8 @@ London Housing SQL Analysis Project (MySQL)
 
 ---
 
-## 11. Author
+## 8. Author
 
 Meenakshi Shibu  
+
 
